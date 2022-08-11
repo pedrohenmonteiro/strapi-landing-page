@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_page_a_realtests",
+    "info": {
+        "displayName": "aRealtest"
+    },
+    "options": {},
+    "attributes": {
+        "test": {
+            "type": "string",
+            "required": true
+        },
+        "numba": {
+            "type": "integer"
+        }
+    }
+}

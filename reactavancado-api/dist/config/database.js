@@ -9,7 +9,7 @@ exports.default = ({ env }) => ({
             database: env('DATABASE_NAME', 'strapi'),
             user: env('DATABASE_USERNAME', 'strapi'),
             password: env('DATABASE_PASSWORD', 'Magia171'),
-            ssl: env.bool('DATABASE_SSL', false),
-        },
-    },
+            ssl: env.bool('DATABASE_SSL', false)
+        }
+    }
 });
